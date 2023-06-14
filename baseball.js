@@ -14,7 +14,6 @@ for (i = 0; i < 3; i++) {
         i--
     }
 }
-console.log(makeNum)
 console.log("컴퓨터가 숫자를 생성하였습니다. 답을 맞춰보세요!")
 let count = 1
 process.stdout.write(`${count}번째시도 : `)
@@ -65,8 +64,3 @@ rl.on("line", (x) => {
         }
     }
 })
-
-
-rl.on('close', () => {
-    process.exit();
-});
